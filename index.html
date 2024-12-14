@@ -1,0 +1,255 @@
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=EMSQnGC1MLDr_JBpYHn3iH65CYnpHfYq1aYLT0r_DweDOOB3rISjiPhn3MWTgqKg" charset="UTF-8"></script>
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Обогреватель</title>
+	<link rel="stylesheet" href="style.css">
+	
+</head>
+
+<body>
+
+	<section class="first-screen">
+		<div class="content">
+			
+			<div class="top-line">
+				<div class="promotion promotion__left"> СКИДКА 30%  </div>
+			</div> 
+			<img class="product-image" src="images/1.jpeg">
+			<div class="prices">
+				<div class="price old-price">
+					<div class="text"> Обычная цена: </div>
+					<div class="value">35700 KZT </div>
+				</div>
+				<div class="price new-price">
+					<div class="text"> Цена сегодня: </div>
+					<div class="value">24990 KZT </div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="promo">
+		<div class="content">
+			<br>
+			<div class="promotion promotion__left">
+				<p>Акция действует c
+					<script>
+					dtime_nums(-4);
+					</script> по
+					<script>
+					dtime_nums(+3);
+					</script> включительно на территории Казахстана </p>
+			</div>
+			<div class="kaspi">
+				<div class="kaspi__body"> Вы можете купить этот товар
+					<br>с помощью <span>kaspi red</span> <img loading="lazy" class="kaspi-red" src="https://heater.bolys.ru/images/inherit/kaspi.webp">
+					<div class="kaspi-months"> 3
+						<br><span>месяца</span> </div>
+					<div class="kaspi-procent"> 0% </div>
+				</div>
+			</div> <a class="btn btn-buy" href="#bottom">Оформить заказ</a> </div>
+	</section>
+	<section class="description description5">
+		<div class="content"> 
+
+		<img loading="lazy" class="product-image" src="images/2.jpeg"> 
+		<img loading="lazy" class="product-image" src="images/3.jpeg"> 
+		<img loading="lazy" class="product-image" src="images/4.jpeg"> 
+		<img loading="lazy" class="product-image" src="images/5.jpeg"> 	
+		<img loading="lazy" class="product-image" src="images/6.jpeg">
+		<img loading="lazy" class="product-image" src="images/7.jpeg">  
+	<a class="btn btn-buy" href="#bottom">Оформить заказ</a>
+
+		</div>
+	</section>
+
+	<section class="feedback">
+  <div class="content">
+    <div class="container">
+      <div class="feedback__title title">Отзывы <span>наших покупателей</span></div>
+      <div class="feedback__item fade"> 
+        <img loading="lazy" src="images/r1.jpeg">
+        <p>"Пользуюсь портативным проектором уже месяц. Картинка яркая, звук неплохой. Отлично подходит для вечеров с друзьями!"</p>
+        <div class="feedback__item-author">
+          <div class="author-name">Айгерим</div>
+          <div class="author-age">25 лет</div>
+        </div>
+      </div>
+      <div class="feedback__item"> 
+        <img loading="lazy" src="images/r2.jpeg">
+        <p>"Купил проектор для работы и развлечений. Легко подключается к телефону. Но в ярком свете картинка немного теряет качество."</p>
+        <div class="feedback__item-author">
+          <div class="author-name">Ерлан</div>
+          <div class="author-age">30 лет</div>
+        </div>
+      </div>
+      <div class="feedback__item"> 
+        <img loading="lazy" src="images/r3.jpeg">
+        <p>Брала в подарок сестре.Довольна, как слон. Качество просто шикарное, надеюсь прослужит долгоСпасибо большое</p>
+        <div class="feedback__item-author">
+          <div class="author-name">Динара</div>
+          <div class="author-age">22 года</div>
+        </div>
+      </div>
+      <div class="feedback__item"> 
+        <img loading="lazy" src="images/r4.jpeg">
+        <p>"Хороший проектор для игр. Задержка минимальная, что радует. Но в темноте картинка лучше смотрится."</p>
+        <div class="feedback__item-author">
+          <div class="author-name">Нурсултан</div>
+          <div class="author-age">28 лет</div>
+        </div>
+      </div>
+      <div class="feedback__item"> 
+        <img loading="lazy" src="images/r5.jpeg">
+        <p>"Использую проектор для домашних киносеансов. Очень довольна качеством изображения. Рекомендую всем, кто любит смотреть фильмы!"</p>
+        <div class="feedback__item-author">
+          <div class="author-name">Светлана</div>
+          <div class="author-age">35 лет</div>
+        </div>
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">❮</a> 
+      <a class="next" onclick="plusSlides(1)">❯</a>
+      <a class="btn btn-buy" href="#bottom">Оформить заказ</a>
+    </div>
+  </div>
+</section>
+
+<script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("feedback__item");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slides[slideIndex-1].style.display = "block";
+  }
+</script>
+
+				</div>
+		</div>
+	</section>
+	<section class="how-to-order">
+		<div class="content">
+			<div class="title"> Как сделать заказ? </div>
+			<div class="how-to-order__block">
+				<div class="how-to-order__item"> <img loading="lazy" class="how-to-order__img" src="https://heater.bolys.ru/images/inherit/17.webp">
+					<div class="item__desc">
+						<div class="item__title"> Заказ </div>
+						<div class="item__text"> Оставляете заявку на сайте </div>
+					</div>
+				</div>
+				<div class="how-to-order__item"> <img loading="lazy" class="how-to-order__img" src="https://heater.bolys.ru/images/inherit/18.webp">
+					<div class="item__desc">
+						<div class="item__title"> Звонок </div>
+						<div class="item__text"> Наш менеджер уточняет детали заказа </div>
+					</div>
+				</div>
+				<div class="how-to-order__item"> <img loading="lazy" class="how-to-order__img" src="https://heater.bolys.ru/images/inherit/19.webp">
+					<div class="item__desc">
+						<div class="item__title"> Отправка </div>
+						<div class="item__text"> Доставляем ваш товар в течение 1-5 дней </div>
+					</div>
+				</div>
+				<div class="how-to-order__item"> <img loading="lazy" class="how-to-order__img" src="https://heater.bolys.ru/images/inherit/20.webp">
+					<div class="item__desc">
+						<div class="item__title"> Получение </div>
+						<div class="item__text"> Оплачиваете при получении курьеру или на почте </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="first-screen">
+		<div class="content">
+			
+			 <div class="top-line">
+				<div class="promotion promotion__left sale"> СКИДКА 30% </div>
+			</div>
+			 <img class="product-image" src="images/8.jpeg">
+			<div class="prices">
+				<div class="price old-price">
+					<div class="text"> Обычная цена: </div>
+					<div class="value">35700 KZT </div>
+				</div>
+				<div class="price new-price">
+					<div class="text"> Цена сегодня: </div>
+					<div class="value">24990 KZT </div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="form-section">
+		<div class="content">
+			<div class="promotion promotion__left">
+				<p>Акция действует c
+					<script>
+					dtime_nums(-4);
+					</script> по
+					<script>
+					dtime_nums(+3);
+					</script> включительно на территории Казахстана </p>
+			</div>
+			<form class="order-form" id="order-form" action="send.php" method="post">
+				<div class="order-form__input order-form__name">
+					<input type="text" id="nam" name="name" value="" placeholder="Введите Ваше имя" autocomplete="name" required> </div>
+				<div class="order-form__input order-form__tel">
+					<input type="tel" id="phone" name="phone" value="" placeholder="Введите телефон" title="Введите правильно номер телефона" onkeyup="this.value = this.value.replace (/[^0-9+]/, '')" autocomplete="tel" required> </div>
+				<div class="order-form__input order-form__checkbox">
+					<input type="checkbox" checked required> <span>Я согласен с политикой конфиденциальности и пользовательским соглашением
+                    </span> </div>
+				<button class="btn btn-buy" type="submit">Оформить заказ</button>
+				 <input type="hidden" name="comment" value="Обогреватель">
+			</form>
+		</div>
+		<div id="bottom"></div>
+	</section>
+	<section class="footer">
+		<div class="content">
+			<center>
+				ТОО "Байжол kz" <br>
+				БИН 170540029366<br>
+				Режим работы: Пн - Вс: 10:00 - 20:00 <br>
+				Казахстан, г. Алматы, мкрн. Мамыр-4 <br>
+				Телефон: 87714067167 <br>
+
+				<br> <a target="_blank" href="dostavka.html">Доставка</a>
+				<br> <a target="_blank" href="return.html">Политика возврата</a>
+				<br> <a target="_blank" href="politics.html">Политика конфиденциальности</a>
+			</center>
+		</div>
+	</section>
+	
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="js/carousel.js"></script>
+	<script src="js/scroll.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $(".owl-carousel").owlCarousel({
+            items: 1,
+            loop: true,
+            nav: true,
+            navText: ["<", ">"],
+            autoplay: false,
+            autoplayTimeout: 6000,
+            autoplayHoverPause: true
+        });
+    });
+</script>
+</body>
+
+</html>
